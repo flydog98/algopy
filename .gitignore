@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# add replit
+.replit
+
+# remove now-coding file
+main.py
