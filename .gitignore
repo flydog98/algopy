@@ -131,6 +131,9 @@ dmypy.json
 # add replit
 .replit
 
+# add gitpod
+.gitpod.yml
+
 # remove now-coding file
 main.py
 .breakpoints
