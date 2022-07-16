@@ -137,3 +137,6 @@ dmypy.json
 # remove now-coding file
 main.py
 .breakpoints
+
+# remove test file
+test.py
