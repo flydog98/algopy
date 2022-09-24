@@ -26,7 +26,6 @@ def main():
   queue.append(puzzle)
 
   while(queue):
-  # for k in range(10):
     now = queue.pop(0)
     count = record[now]
 
@@ -49,15 +48,10 @@ def main():
         nextpuzzle += target * getmultiplier(y, x)
         nextpuzzle += 9 * getmultiplier(nexty, nextx)
         if nextpuzzle not in record:
-          # print(now, " -> ", nextpuzzle, " count: ", count + 1)
           record[nextpuzzle] = count + 1
           queue.append(nextpuzzle)
-          # print(queue)
     
   print(-1)
 
 if __name__ == "__main__":
-  import time
-  start = time.time()
   main()
-  print(time.time() - start)
